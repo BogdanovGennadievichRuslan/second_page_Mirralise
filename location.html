@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Mirralise</title>
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<link rel="preconnect" href="https://fonts.gstatic.com">
+	<link href="https://fonts.googleapis.com/css2?family=Raleway:wght@100;300&display=swap" rel="stylesheet">
+</head>
+<body>
+	 
+	<header>
+		<div class="logo">
+			<a href="index.html"><img class="graficlogo" src="img/logo.png" alt="Logo"></a>
+		</div>
+		<nav>
+			<div class="topnav" id="myTopnav">
+				<a href="index.html">HOME</a>
+				<a href="projects.html">PROJECTS</a>
+				<a href="blog.html">BLOG</a>
+				<a href="contact.html">CONTACT</a>
+				<a href="about.html">ABOUT</a>
+				<a href="services.html">SERVICES</a>
+				<a href="location.html">LOCATION</a>
+				<a id="menu" href="#" class="icon">&#9776;</a>
+			</div>
+		</nav>					
+	</header>
+	<main>
+		<h1>Location</h1>
+		<div id="map"> </div>		
+
+
+
+
+		
+	</main>
+	<footer>
+		<nav>
+			<a href="index.html">HOME</a>
+			<a href="projects.html">PROJECTS</a>
+			<a href="blog.html">BLOG</a>
+			<a href="contact.html">CONTACT</a>
+			<a href="about.html">ABOUT</a>
+			<a href="services.html">SERVICES</a>
+			<a href="location.html">LOCATION</a>
+		</nav>
+		<div class="logo">
+			<a href="index.html"><img src="img/logo.png" alt=""></a>
+		</div>
+		<div class="social">
+			<a href="#"><img src="img/em.png" alt=""></a>
+			<a href="#"><img src="img/face.png" alt=""></a>
+			<a href="#"><img src="img/goo.png" alt=""></a>
+			<a href="#"><img src="img/inst.png" alt=""></a>
+			<a href="#"><img src="img/pint.png" alt=""></a>
+		</div>
+		<p>Web Developer Blog.2021</p>
+	</footer>
+
+
+
+
+
+
+
+
+
+
+
+<script>
+      // Initialize and add the map
+      function initMap() {
+        // The location of Uluru
+        const uluru = { lat: 46.189785, lng: 30.1779281};
+        // The map, centered at Uluru
+        const map = new google.maps.Map(document.getElementById("map"), {
+          zoom: 12,
+          center: uluru,
+        });
+        // The marker, positioned at Uluru
+        const marker = new google.maps.Marker({
+          position: uluru,
+          map: map,
+        });
+      }
+    </script>
+    <script async defer
+      src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBR8pJSrrzab3bAX5qszfGBT-rL0mvawsA&callback=initMap&libraries=&v=weekly"
+      defer
+    ></script>
+
+
+
+  
+
+
+
+	<script type="text/javascript" src='js/script.js'></script>
+
+	 <script>document.write('<script src="http://' + (location.host || 'localhost').split(':')[0] + ':35729/livereload.js?snipver=1"></' + 'script>')</script>
+</body>
+</html>
