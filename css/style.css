@@ -118,7 +118,7 @@ footer nav a:hover{
 	box-shadow: rgba(0,0,0,0.2) 0 4px 2px -2px;
 	font-weight: 100;
 	margin: 48px auto;
-	width: 50rem;
+	width: 80%;
 }
 .blog-container:hover{
 	border-color: #ff4d4d;
@@ -298,7 +298,7 @@ textarea{
 		width: 100%;
 	}
 	.topnav.responsive{
-		positon:relative;
+		position:relative;
 	}
 	.topnav.responsive a.icon{
 		position: absolute;
@@ -316,9 +316,6 @@ textarea{
 	.photo-item{
 		width: 45%;
 		margin-left: 10px;
-	}
-	.blog-container{
-		width: 28rem;
 	}
 }
 
@@ -341,9 +338,6 @@ textarea{
 	.photo-item{
 		width: 70%;
 		margin: 0 auto;
-	}
-	.blog-container{
-	 	width: 28rem;
 	}
 	.services__container{
 		grid-template-columns: auto;
